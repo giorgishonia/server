@@ -13,7 +13,7 @@ app.use(session({
 
 const CLIENT_ID = '1346166562935017484';
 const CLIENT_SECRET = 'o0HgaAZaRg2fTZeAa3Prvik7qISQAXMk'; // Your Discord Client Secret
-const REDIRECT_URI = 'http://78.46.91.74:50033/auth/callback';
+const REDIRECT_URI = 'https://server-lhjq.onrender.com/auth/callback';
 
 // Define the /auth/callback route BEFORE static middleware
 app.get('/auth/callback', async (req, res) => {
